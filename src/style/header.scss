@@ -1,0 +1,43 @@
+.header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+
+    &__leftColumn {
+
+    }
+
+    &__centerColumn {
+        display: grid;
+        justify-content: right;
+        align-content: center;
+
+
+
+        &__centerHeader {
+            display: flex;
+            margin-bottom: 50px;
+            margin-right: 55px;;
+        }
+
+        &__centerHeader h2 {
+            font-size: 1.3em;
+            color: black;
+            font-weight: bold;
+            transition: .5s;
+            padding: 5px;
+        }
+
+        &__centerHeader h2:hover {
+            background-color: transparent;
+            font-size: 1.7em;
+            color: rgba(0, 0, 0, 0.466);
+        }
+    }
+}
+
+
+
+
+
+
