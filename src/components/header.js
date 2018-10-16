@@ -12,12 +12,10 @@ class Header extends Component {
                     </div>
                 </div>
 
-                <div className='header__centerColumn'>
-                    <div className='header__centerColumn__centerHeader'>
-                        <div>About Me</div>                        
-                        <div>Projects</div>
-                        <div>Contact</div>
-                    </div>
+                <div className='header__rightColumn'>
+                    <div className="header__rightColumn__item">About</div>                        
+                    <div className="header__rightColumn__item">Projects</div>
+                    <div className="header__rightColumn__item">Contact</div>
                 </div>
             
             </div>

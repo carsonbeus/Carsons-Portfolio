@@ -1,6 +1,8 @@
 .header {
     display: grid;
     grid-template-columns: 20% 80%;
+    align-items: center;
+    height: 100px;
     
     &__leftColumn {
         display: flex;
@@ -10,26 +12,24 @@
     }
 
 
-    &__centerColumn {
-        
-
-        
-        &__centerHeader {
-            display: flex;
-            margin-bottom: 50px;
-            margin-right: 55px;;
-        }
-
-        &__centerHeader div {
+    &__rightColumn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 20px;        
+        &__item {
+            
             font-size: 1.3em;
             color: white;
             font-weight: bold;
             transition: .5s;
             padding: 5px;
+
         }
-        &__centerHeader div:hover {
+        &__item:hover {
             background-color: transparent;
-            font-size: 1.7em;
+            // font-size: 1.7em;
+            letter-spacing: 2px;
             color: rgba(255, 255, 255, 0.582);
         }
     }
