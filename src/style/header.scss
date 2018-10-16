@@ -1,43 +1,37 @@
 .header {
     display: grid;
     grid-template-columns: 20% 80%;
-
-
+    
     &__leftColumn {
-
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        
     }
 
+
     &__centerColumn {
-        display: grid;
-        justify-content: right;
-        align-content: center;
+        
 
-
-
+        
         &__centerHeader {
             display: flex;
             margin-bottom: 50px;
             margin-right: 55px;;
         }
 
-        &__centerHeader h2 {
+        &__centerHeader div {
             font-size: 1.3em;
-            color: black;
+            color: white;
             font-weight: bold;
             transition: .5s;
             padding: 5px;
         }
-
-        &__centerHeader h2:hover {
+        &__centerHeader div:hover {
             background-color: transparent;
             font-size: 1.7em;
-            color: rgba(0, 0, 0, 0.466);
+            color: rgba(255, 255, 255, 0.582);
         }
     }
 }
-
-
-
-
-
 
