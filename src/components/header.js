@@ -8,7 +8,7 @@ class Header extends Component {
 
                 <div className='header__leftColumn'>
                     <div className="header__leftColumn__align">
-                        <div>color change</div>
+                        {/* <div>color change</div> */}
                     </div>
                 </div>
 

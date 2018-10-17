@@ -1,0 +1,28 @@
+.aboutPage {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+
+    &__contentGrid {
+        padding: 0 100px;
+        &__aboutWrapper {
+        
+
+            &__aboutContent {
+
+
+            }
+
+            &__aboutContent p {
+
+
+            }
+        }
+    }
+
+    &__contentGrid h1 {
+        font-weight: 900;
+        font-family: Roboto,sans-serif;
+    }
+}
+

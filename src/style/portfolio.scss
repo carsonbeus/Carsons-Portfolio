@@ -1,0 +1,26 @@
+.portfolioPage {
+    height: 808px;
+    width: 1440px;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &__portfolioPageWrapper {
+
+        &__contentGrid {
+
+            &__portfolioWrapper {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+        &__contentGrid h1 {
+            font-weight: 900;
+            font-family: Roboto,sans-serif;
+            
+        }
+    }
+}

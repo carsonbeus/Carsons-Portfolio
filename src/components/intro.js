@@ -5,13 +5,14 @@ class Intro extends Component {
         return(
             <div className="introWrapper">
                 <div className="introWrapper__nameWrapper">
-                    Carson
+                    Hi, I'm Carson! 
+                    {/* I like to develop web apps! */}
                 </div>
                 <div className="introWrapper__description">
-                    Front End Developer, React Developer,
+                    Web, React and Python Developer
                 </div>
                 <div className="introWrapper__socialIcons">
-                    LinkedIn, GitHub
+                    LinkedIn icon, GitHub icon
                 </div>
             </div>
 
