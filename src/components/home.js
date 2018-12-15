@@ -12,7 +12,7 @@ export default class Home extends Component {
       <div className='app'>
         <Header />
         <Intro />
-        <About />
+        {/* <About /> */}
         <Portfolio />
         <Contact />
    

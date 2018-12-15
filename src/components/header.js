@@ -23,11 +23,3 @@ class Header extends Component {
     }
 }
 export default Header;
-
-{/* <div className="header__leftColumn__align__myName">Carson Beus</div>
-    <div className="jobDescription">React | Python Developer</div> */}
-
-// height: 200px;
-// display: flex;
-// justify - content: center;
-// align - items: center;

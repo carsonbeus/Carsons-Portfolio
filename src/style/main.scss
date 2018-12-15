@@ -7,6 +7,8 @@
 html {
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -21,9 +23,11 @@ body {
     -webkit-tap-highlight-color: transparent;
     background-color: #3fd0ed;
     color: white;
+
 }
 
 .app {
-
+    top: 0;
+    bottom: 0;
 
 }

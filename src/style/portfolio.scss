@@ -1,26 +1,30 @@
 .portfolioPage {
-    height: 808px;
-    width: 1440px;
-    flex: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-
+    height: 100vh;
+    width: 100%;
     &__portfolioPageWrapper {
 
         &__contentGrid {
 
-            &__portfolioWrapper {
+            &__title {
+                font-size: 30px;
                 display: flex;
-                flex-wrap: wrap;
                 justify-content: center;
             }
-        }
-        &__contentGrid h1 {
-            font-weight: 900;
-            font-family: Roboto,sans-serif;
-            
+            &__portfolioWrapper {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+
+            }
         }
     }
+}
+
+
+
+.portfolioItem {
+    justify-self: center;
+}
+.portfolioImg {
+    display: flex;
+    justify-content: center;
 }
