@@ -9,10 +9,10 @@ class Intro extends Component {
                     {/* I like to develop web apps! */}
                 </div>
                 <div className="introWrapper__description">
-                    Web, React and Python Developer
+                JS - ReactJS - ReactNative - SCSS - Node
                 </div>
                 <div className="introWrapper__socialIcons">
-                    LinkedIn icon, GitHub icon
+                    <i className="fab fa-linkedin"></i> <i className="fab fa-github-square"></i>
                 </div>
             </div>
 

@@ -1,7 +1,8 @@
 .header {
     display: grid;
-    grid-template-columns: 85% 15%;
+    grid-template-columns: 80% 18% 2%;
     grid-template-rows: 100%;
+    height: 10vh;
 
     &__leftColumn {
         color: white;
@@ -10,6 +11,7 @@
         grid-column: 2/3;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        align-self: center;
         
         &__item {
             justify-self: center;
